@@ -1,0 +1,32 @@
+.container{
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.weeklycontainer{
+width: 80vw;
+margin: auto;
+    display:flex;
+ overflow-x: scroll;
+ 
+    grid-gap:10px 20px;
+    z-index: 0;
+    padding: 5px;
+
+}
+
+.weeklydiv{
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 160px;
+    padding: 0px 15px;
+}
+.imglogo{
+    width: 50%;
+    background-color:"none";
+
+}
